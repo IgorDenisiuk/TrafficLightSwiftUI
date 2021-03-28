@@ -15,7 +15,6 @@
 		05C7F1A5260F813400211D19 /* YellowCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C7F1A4260F813400211D19 /* YellowCircle.swift */; };
 		05C7F1A8260F816D00211D19 /* GreenCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C7F1A7260F816D00211D19 /* GreenCircle.swift */; };
 		05C7F1B1260F8EC000211D19 /* ButtonAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C7F1B0260F8EC000211D19 /* ButtonAction.swift */; };
-		05C7F1B4260F904B00211D19 /* ButtonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C7F1B3260F904B00211D19 /* ButtonShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		05C7F1A4260F813400211D19 /* YellowCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowCircle.swift; sourceTree = "<group>"; };
 		05C7F1A7260F816D00211D19 /* GreenCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCircle.swift; sourceTree = "<group>"; };
 		05C7F1B0260F8EC000211D19 /* ButtonAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAction.swift; sourceTree = "<group>"; };
-		05C7F1B3260F904B00211D19 /* ButtonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				05C7F191260F77D800211D19 /* TrafficLightSwiftUIApp.swift */,
 				05C7F193260F77D800211D19 /* ContentView.swift */,
 				05C7F1B0260F8EC000211D19 /* ButtonAction.swift */,
-				05C7F1B3260F904B00211D19 /* ButtonShape.swift */,
 				05C7F1A1260F7E6A00211D19 /* RedCircle.swift */,
 				05C7F1A4260F813400211D19 /* YellowCircle.swift */,
 				05C7F1A7260F816D00211D19 /* GreenCircle.swift */,
@@ -158,7 +155,6 @@
 				05C7F192260F77D800211D19 /* TrafficLightSwiftUIApp.swift in Sources */,
 				05C7F1A8260F816D00211D19 /* GreenCircle.swift in Sources */,
 				05C7F1A2260F7E6A00211D19 /* RedCircle.swift in Sources */,
-				05C7F1B4260F904B00211D19 /* ButtonShape.swift in Sources */,
 				05C7F1A5260F813400211D19 /* YellowCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

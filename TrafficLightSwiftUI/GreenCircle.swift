@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct GreenCircle: View {
+    var color: UIColor
+    var opacity: Double
+    
     var body: some View {
         Circle()
             .foregroundColor(.green)
             .frame(width: 150, height: 150)
+            .opacity(opacity)
             .overlay(Circle().stroke(Color .white, lineWidth: 5))
-            .opacity(0.3)
     }
 }
 
 struct GreenCircle_Previews: PreviewProvider {
     static var previews: some View {
-        GreenCircle()
+        GreenCircle(color: .green, opacity: 0.3)
     }
 }

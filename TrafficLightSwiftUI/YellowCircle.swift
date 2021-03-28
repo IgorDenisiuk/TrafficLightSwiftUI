@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct YellowCircle: View {
+    var color: UIColor
+    var opacity: Double
+    
     var body: some View {
         Circle()
             .foregroundColor(.yellow)
             .frame(width: 150, height: 150)
+            .opacity(opacity)
             .overlay(Circle().stroke(Color .white, lineWidth: 5))
-            .opacity(0.3)
     }
 }
 
 struct YellowCircle_Previews: PreviewProvider {
     static var previews: some View {
-        YellowCircle()
+        YellowCircle(color: .yellow, opacity: 0.3)
     }
 }

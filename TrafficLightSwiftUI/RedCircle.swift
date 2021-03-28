@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct RedCircle: View {
+    var color: UIColor
+    var opacity: Double
+    
     var body: some View {
         Circle()
             .foregroundColor(.red)
             .frame(width: 150, height: 150)
+            .opacity(opacity)
             .overlay(Circle().stroke(Color .white, lineWidth: 5))
-            .opacity(0.3)
     }
 }
 
 struct RedCircle_Previews: PreviewProvider {
     static var previews: some View {
-        RedCircle()
+        RedCircle(color: .red, opacity: 0.3)
     }
 }
